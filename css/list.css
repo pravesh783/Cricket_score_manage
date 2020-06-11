@@ -1,0 +1,36 @@
+#container{
+	color: white;
+	width: 300xp;
+	height: 150px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 10px 30px 0px 30px;
+}
+
+
+
+
+
+
+.container {
+    ...
+}
+.row {
+    text-align: center;
+
+}
+.btn {
+    display: inline-block;
+    margin-right: 6px;
+	width: 300px;
+	height: 200px;
+    background-color: #EEE;
+    color: red;
+}
+.clear {
+    clear: both;
+}
+.btn a{
+	list-style: none;
+	text-decoration: none;  
+}

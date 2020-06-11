@@ -1,0 +1,50 @@
+#container{
+	color: white;
+	width: 30xp;
+	height: 50px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 10px 30px 0px 30px;
+}
+
+body{
+	background-image: url('../images/back.jpeg');
+			 background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+
+	  	
+}
+
+
+
+.site-slogan{
+	text-align: center;
+}
+
+
+.container {
+    ...
+}
+.row {
+    text-align: center;
+
+}
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+	width: 300px;
+	height: 200px;
+    background-color: #EEE;
+    color: red;
+    text-align: center;
+    
+
+}
+.clear {
+    clear: both;
+}
+.btn a{
+	list-style: none;
+	text-decoration: none;  
+}
