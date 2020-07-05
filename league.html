@@ -1,93 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>table
-  </title>
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    body{
+      margin: 0px;
+      padding: 0px;
+    
+    }
+    .content{
+      margin: 0px 20px;
+    }
+    .top{
+      text-align: center;
+      color: white;
+      
+    }
+    tr{
+      background-color: #f7efef;
+    }
+    @media (max-width: 768px){
+      .top{
+        font-size: 12px;
+      }
+      .content{
+        width: 100%;
+        margin: 1px;
+      }
+    }
+  </style>
 </head>
-<style>
-  .btn {
-    @apply font-bold py-2 px-4 rounded;
-    float: left;
-    margin-left: 450px;
-    margin-top: 50px;
-  }
-  .btn-blue {
-    @apply bg-blue-500 text-white;
-  float: left;
-  }
-  .btn-blue:hover {
-    @apply bg-blue-70
+<body class="bg-danger">
+  <div class="content">
+    <div class="top">
+    <h2 class="text-">Innovative Towards Digital</h2>
+    <p>It's first innovation of IHL league matches . In IHL 2021 you can see our teams and captains of that teams</p>
 
-  }
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 5px;
-  text-align: left;    
-}
-</style>
-</head>
-<body style="background-color: rgba(201, 76, 76, 0.3);">
+  
+  </div>
 
-<h2>Innovative Towards Digital</h2>
-<p>It's first innovation of IHL league matches . In IHL 2021 you can see our teams and captains of that teams</p>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Team Name</th>
+      <th scope="col">Caption</th>
+      <th scope="col">Sub Caption</th>
+      <th scope="col">Players</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Team 1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@blah blah </td>
+    </tr>
+    <tr>
+      <th scope="row">Team 2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@this</td>
+    </tr>
+   <tr>
+      <th scope="row">Team 3</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@this</td>
+    </tr>
 
-<table style="width:100%">
-  <tr style="background-color: red;">
-    <th>Team Name</th>
-    <th>Captain</th>
-    <th>Sub Captain</th>
-    <th>Players</th>
-  </tr>
-  <tr>
-    <td>Bill Gates</td>
-    <td>55577854</td>
-    <td>55577855</td>
-    <td>55577855</td>
-  </tr>
-  <tr>
-    <td>Bill Gates</td>
-    <td>55577854</td>
-    <td>55577855</td>
-    <td>55577855</td>
-  </tr>
-  <tr>
-    <td>Bill Gates</td>
-    <td>55577854</td>
-    <td>55577855</td>
-    <td>55577855</td>
-  </tr>
-  <tr>
-    <td>Bill Gates</td>
-    <td>55577854</td>
-    <td>55577855</td>
-    <td>55577855</td>
-  </tr>
-  <tr>
-    <td>Bill Gates</td>
-    <td>55577854</td>
-    <td>55577855</td>
-    <td>55577855</td>
-  </tr>
-  <tr>
-    <td>Bill Gates</td>
-    <td>55577854</td>
-    <td>55577855</td>
-    <td>55577855</td>
-  </tr>
+  </tbody>
+  <a class="btn btn-info" href="index.php" role="button">Go Back</a>
 </table>
-
-
-
-
-
-<!-- Extracting component classes: -->
-<a href="index.php">
-<button class="btn btn-blue">
-  Back to homepage
-</button></a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
